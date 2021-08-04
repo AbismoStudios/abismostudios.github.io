@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Gabriel Senna",
+        "subtitle": "Programador",
+        "description": "Uma descrição",
+        "photo": "https://cdn.discordapp.com/avatars/192300874138255361/339309da36d201821b603199901175ab.png",
+        "actions": [
+            {
+                "icon": "fab fa-github",
+                "link": "https://github.com/MortoMS",
+                "color": "#fff",
+                "title": "GitHub"
+            },
+            {
+                "icon": "fab fa-gitlab",
+                "link": "https://gitlab.com/SennaMS",
+                "color": "#fff",
+                "title": "GitLab"
+            },
+            {
+                "icon": "fas fa-envelope",
+                "link": "mailto:gabrielrafaelms@yahoo.com.br",
+                "color": "#fff",
+                "title": "E-mail"
+            }            
+        ]
+    },
+    {
+        "name": "Nícolas 'Ksaa' Lúcio",
+        "subtitle": "Diretor",
+        "description": "Uma descrição",
+        "photo": "/img/equipe/KsaaProfille.png",
+        "actions": [
+            {
+                "icon": "fab fa-github",
+                "link": "https://github.com/NicolasLucio",
+                "color": "#fff",
+                "title": "GitHub"
+            },
+            {
+                "icon": "fab fa-gitlab",
+                "link": "https://gitlab.com/SennaMS",
+                "color": "#fff",
+                "title": "GitLab"
+            },
+            {
+                "icon": "fab fa-artstation",
+                "link": "https://www.artstation.com/nicolaslucio",
+                "color": "#fff",
+                "title": "Artstation"
+            },
+            {
+                "icon": "fab fa-steam",
+                "link": "https://steamcommunity.com/id/ksaa/",
+                "color": "#fff",
+                "title": "Steam"
+            },
+            {
+                "icon": "fas fa-envelope",
+                "link": "mailto:nicolasslucio@gmail.com",
+                "color": "#fff",
+                "title": "E-mail"
+            }
+        ]
+    },
+    {
+        "name": "Cleyton Verde",
+        "subtitle": "Designer 3D",
+        "description": "Uma descrição",
+        "photo": "/img/equipe/CleyTemp.jpg",
+        "actions": [
+            {
+                "icon": "fab fa-github",
+                "link": "https://github.com/CleytonVerde",
+                "color": "#fff",
+                "title": "GitHub"
+            },
+            {
+                "icon": "fab fa-artstation",
+                "link": "https://www.artstation.com/cleytonemanoel",
+                "color": "#fff",
+                "title": "Artstation"
+            },
+            {
+                "icon": "fas fa-envelope",
+                "link": "mailto:",
+                "color": "#fff",
+                "title": "E-mail"
+            }            
+        ]
+    },
+    {
+        "name": "Nowah",
+        "subtitle": "Designer Gráfico",
+        "description": "Uma descrição",
+        "photo": "/img/equipe/NowahNewIcon.png",
+        "actions": [                        
+            {
+                "icon": "fab fa-steam",
+                "link": "https://steamcommunity.com/id/Nowahru",
+                "color": "#fff",
+                "title": "Steam"
+            },
+            {
+                "icon": "fab fa-twitch",
+                "link": "https://www.twitch.tv/nowahru",
+                "color": "#fff",
+                "title": "Twitch"
+            },
+            {
+                "icon": "fab fa-twitter",
+                "link": "https://twitter.com/NowahruArt",
+                "color": "#fff",
+                "title": "Twitter"               
+            },
+            {
+                "icon": "fas fa-envelope",
+                "link": "mailto:nowahru@gmail.com",
+                "color": "#fff",
+                "title": "E-mail"
+            }
+        ]
+    },
+    {
+        "name": "Almir David",
+        "subtitle": "Roterista",
+        "description": "Uma descrição",
+        "photo": "/img/equipe/AlmirProfile.png",
+        "actions": [            
+            {
+                "icon": "fas fa-envelope",
+                "link": "mailto:",
+                "color": "#fff",
+                "title": "E-mail"
+            }            
+        ]
+    },
+    {
+        "name": "Victor 'Topeira' Hugo",
+        "subtitle": "Proxy",
+        "description": "Uma descrição",
+        "photo": "/img/equipe/TopsTemp.jpg",
+        "actions": [
+            {
+                "icon": "fab fa-github",
+                "link": "https://github.com/VictorHugoPossentt",
+                "color": "#fff",
+                "title": "GitHub"
+            },           
+            {
+                "icon": "fas fa-envelope",
+                "link": "mailto:",
+                "color": "#fff",
+                "title": "E-mail"
+            }            
+        ]
+    }
+]
