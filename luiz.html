@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <meta charset="utf-8">
+  <title>Luiz</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <style>
+    /* Class com o tema Light */
+    .classLight{
+      background: #ffffff;
+      color: #000000;
+      transition: 0.4s;
+    }
+    /* Class com o tema Dark */
+    .classDark{
+      background: #000000;
+      color: #ffffff;
+      transition: 0.4s;
+    }
+    /* Class para ajustar o botão no canto superior direito */
+    .interruptor{
+      position: fixed; /* Posição fixa */
+      top: 20px;  /* Posição fixa a 20 px do top da página */
+      right: 20px; /* Posição fixa a 20 px da direita da página */
+      font-size: 24px; /* Tamanho da fonte do botão */
+      text-decoration: none; /* Como o botão é um elemento do tipo "a" é melhor remover o sublinhamento dele*/
+      color: #3CC6E8; /* Cor inicial do botão*/
+    }
+	.msg{
+		width: 1000px;
+		margin: 250px auto;
+		text-align: center;
+	}
+  </style>
+</head>
+<body class="classLight">
+
+  <!-- Botão -->
+  <a href="javascript:void(0)" class="interruptor">
+    <i class="fas fa-moon"></i>
+  </a>
+  <!-- /Botão -->
+  
+  <div class="msg">
+	<h1>De dia o Luiz beta</h1>
+  </div>
+
+  <!-- Codigo javascript utilizando a Biblioteca Jquery -->
+  <script type="text/javascript">
+    var tema = false // Variável que determina se o tema está ativo ou não
+    $(function(){
+      $(".interruptor").on("click", function(){
+        tema = (tema == true)? false : true // Alterando a variável tema para ativo ou não
+        if(tema == true){ // Condição para determinar a troca de tema 
+		  $(".msg").html("<h1>De noite também</h1>")
+          $(".interruptor").html('<i class="far fa-sun"></i>') // Alterando o icone no botão
+          $(".interruptor").css("color", "#FFC47D") // Alterando a cor do botão
+          $(".classLight").toggleClass("classDark classLight") // Selecinado todos os elemento com a class "classLight", removendo a class "classLight" e adicionado a class "classDark"
+        }else{
+			$(".msg").html("<h1>De dia o Luiz beta</h1>")
+          $(".interruptor").html('<i class="fas fa-moon"></i>') // Alterando o icone no botão
+          $(".interruptor").css("color", "#3CC6E8") // Alterando a cor do botão
+          $(".classDark").toggleClass("classDark classLight") // Selecinado todos os elemento com a class "classDark", removendo a class "classDark" e adicionado a class "classLigh"
+        }
+      })
+    })
+  </script>
+  <!-- /Codigo javascript utilizando a Biblioteca Jquery -->
+
+</body>
+</html>
